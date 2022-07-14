@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="challenge.css" />
+</head>
+<body>
+    <div id="div1">
+        
+        <div id="div3">
+            <div id="a1"><h3 id="p">Congress</h3><img src="C:\Users\pravi\Desktop\voting\congress.png" id="img"></div>
+            <div id="a"><h3 id="p">BJP</h3><img src="C:\Users\pravi\Desktop\voting\bjp.png" id="img1"></div>
+            <div id="a"><h3 id="p">TDP</h3><img src="C:\Users\pravi\Desktop\voting\tdp.png" id="img2"></div>
+            <div id="a"><h3 id="p">YSR Congress</h3><img src="C:\Users\pravi\Desktop\voting\index.png" id="img3"></div>
+            <div id="a"><h3 id="p">Loksatha</h3><img src="C:\Users\pravi\Desktop\voting\loksatha.png" id="img4"></div>
+            <div id="a"><h3 id="p">CPM</h3><img src="C:\Users\pravi\Desktop\voting\cpm.png" id="img5"></div>
+            <div id="a"><h3 id="p">TRS</h3><img src="C:\Users\pravi\Desktop\voting\trs.png" id="img6"></div>
+            <div id="a"><h3 id="p">PRP</h3><img src="C:\Users\pravi\Desktop\voting\prp.png" id="img7"></div>
+            
+            <div id="a"></div>
+        </div>
+        <div id="div4">
+            <div class="b1" id="b1"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn" onclick="first();"></button></div>
+            <div class="b" id="b2"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn" onclick="second();"></button></div>
+            <div class="b" id="b3"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn" onclick="third();"></button></div>
+            <div class="b" id="b4"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn"  onclick="fourth();"></button></div>
+            <div class="b" id="b5"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn"  onclick="fifth();"></button></div>
+            <div class="b" id="b6"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn" onclick="sixth();"></button></div>
+            <div class="b" id="b7"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn" onclick="seventh();"></button></div>
+            <div class="b" id="b8"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn"  onclick="eight();"></button></div>
+            <div class="b" id="b9"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btn" onclick="ninth();"></button></div>
+            <div class="b" id="b10"><img src="C:\Users\pravi\Desktop\voting\leftarrow.png" id="img8"><button id="btnn"></button></div>
+
+        </div>
+    </div>
+    <div id="div2">
+        <div id="c">
+            <img src="C:\Users\pravi\Desktop\voting\congress.png" id="divimg">
+            <img src="C:\Users\pravi\Desktop\voting\bjp.png" id="divimg1">
+            <img src="C:\Users\pravi\Desktop\voting\tdp.png" id="divimg2">
+            <img src="C:\Users\pravi\Desktop\voting\index.png" id="divimg3">
+            <img src="C:\Users\pravi\Desktop\voting\loksatha.png" id="divimg4">
+            <img src="C:\Users\pravi\Desktop\voting\cpm.png" id="divimg5">
+            <img src="C:\Users\pravi\Desktop\voting\trs.png" id="divimg6">
+            <img src="C:\Users\pravi\Desktop\voting\prp.png" id="divimg7">
+           
+        </div>
+        <button id="btn1"></button>
+        <button id="btn2"><img src="C:\Users\pravi\Desktop\voting\power.webp" id="power" onclick="poweron();" ondblclick="poweroff();"></button>
+        <button id="btn3" onclick="reset();"><b style="color:bisque;font-size:20px;">Reset</b></button>
+        <button id="btn4"><b style="color:bisque;font-size:20px;">Count</b></button>
+        <button id="btn5"><img src="C:\Users\pravi\Desktop\voting\tick.jpg" id="tick" onclick="ok();"></button>
+        <button id="btn6"><img src="C:\Users\pravi\Desktop\voting\wrong.png" id="tick" onclick="wrong();"></button>
+        <button id="btn7"><img src="C:\Users\pravi\Desktop\voting\tick.jpg" id="tick" onclick="count();"></button>
+        <button id="btn8"><img src="C:\Users\pravi\Desktop\voting\wrong.png" id="tick" onclick="windowclose();"></button>
+        <button id="btn9"><img src="C:\Users\pravi\Desktop\voting\righta.jpg" id="tick"></button>
+        <button id="btn10"><img src="C:\Users\pravi\Desktop\voting\lefta.png" id="tick"></button>
+
+    </div>
+    <script>
+        let a;
+        var v;
+        function first() {
+            document.getElementById("divimg").style.visibility = "visible";
+            document.getElementById("b1").style.visibility = "hidden";
+            v = 1;
+        }
+        function second() {
+            document.getElementById("divimg1").style.visibility = "visible";
+            document.getElementById("b2").style.visibility = "hidden";
+            v = 2;
+        }
+        function third() {
+            document.getElementById("divimg2").style.visibility = "visible";
+            document.getElementById("b3").style.visibility = "hidden";
+            v = 3;
+        }
+        function fourth() {
+            document.getElementById("divimg3").style.visibility = "visible";
+            document.getElementById("b4").style.visibility = "hidden";
+            v = 4;
+        }
+        function fifth() {
+            document.getElementById("divimg4").style.visibility = "visible";
+            document.getElementById("b5").style.visibility = "hidden";
+            v = 5;
+        }
+        function sixth() {
+            document.getElementById("divimg5").style.visibility = "visible";
+            document.getElementById("b6").style.visibility = "hidden";
+            v = 6;
+        }
+        function seventh() {
+            document.getElementById("divimg6").style.visibility = "visible";
+            document.getElementById("b7").style.visibility = "hidden";
+            v = 7;
+        }
+        function eight() {
+            document.getElementById("divimg7").style.visibility = "visible";
+            document.getElementById("b8").style.visibility = "hidden";
+            v = 8;
+        }
+        function ninth() {
+            document.getElementById("divimg8").style.visibility = "visible";
+            document.getElementById("b9").style.visibility = "hidden";
+            v = 9;
+        }
+        var congress = 0;
+        var bjp = 0;
+        var tdp = 0;
+        var ysr = 0;
+        var lok = 0;
+        var cpm = 0;
+        var trs = 0;
+        var prp = 0;
+        var janasena = 0;
+        var total = 0;
+        function ok() {
+            document.getElementById("b1").style.visibility = "visible";
+            document.getElementById("divimg").style.visibility = "hidden";
+            document.getElementById("b2").style.visibility = "visible";
+            document.getElementById("divimg1").style.visibility = "hidden";
+            document.getElementById("b3").style.visibility = "visible";
+            document.getElementById("divimg2").style.visibility = "hidden";
+            document.getElementById("b4").style.visibility = "visible";
+            document.getElementById("divimg3").style.visibility = "hidden";
+            document.getElementById("b5").style.visibility = "visible";
+            document.getElementById("divimg4").style.visibility = "hidden";
+            document.getElementById("b6").style.visibility = "visible";
+            document.getElementById("divimg5").style.visibility = "hidden";
+            document.getElementById("b7").style.visibility = "visible";
+            document.getElementById("divimg6").style.visibility = "hidden";
+            document.getElementById("b8").style.visibility = "visible";
+            document.getElementById("divimg7").style.visibility = "hidden";
+            document.getElementById("b9").style.visibility = "visible";
+            document.getElementById("divimg8").style.visibility = "hidden";
+            if (v == 1) {
+
+                congress = congress + 1;
+            }
+            else if (v == 2) {
+
+                bjp = bjp + 1;
+            }
+            else if (v == 3) {
+
+                tdp = tdp + 1;
+            }
+            else if (v == 4) {
+
+                ysr = ysr + 1;
+            }
+            else if (v == 5) {
+
+                lok = lok + 1;
+            }
+            else if (v == 6) {
+
+                cpm = cpm + 1;
+            }
+            else if (v == 7) {
+
+                trs = trs + 1;
+            }
+            else if (v == 8) {
+
+                prp = prp + 1;
+            }
+            else if (v == 9) {
+                janasena = janasena + 1;
+            }
+            total = total + 1;
+
+        }
+        function wrong() {
+            document.getElementById("b1").style.visibility = "visible";
+            document.getElementById("divimg").style.visibility = "hidden";
+            document.getElementById("b2").style.visibility = "visible";
+            document.getElementById("divimg1").style.visibility = "hidden";
+            document.getElementById("b3").style.visibility = "visible";
+            document.getElementById("divimg2").style.visibility = "hidden";
+            document.getElementById("b4").style.visibility = "visible";
+            document.getElementById("divimg3").style.visibility = "hidden";
+            document.getElementById("b5").style.visibility = "visible";
+            document.getElementById("divimg4").style.visibility = "hidden";
+            document.getElementById("b6").style.visibility = "visible";
+            document.getElementById("divimg5").style.visibility = "hidden";
+            document.getElementById("b7").style.visibility = "visible";
+            document.getElementById("divimg6").style.visibility = "hidden";
+            document.getElementById("b8").style.visibility = "visible";
+            document.getElementById("divimg7").style.visibility = "hidden";
+            document.getElementById("b9").style.visibility = "visible";
+            document.getElementById("divimg8").style.visibility = "hidden";
+            
+        }
+        function reset() {
+            
+             congress = 0;
+             bjp = 0;
+             tdp = 0;
+             ysr = 0;
+             lok = 0;
+             cpm = 0;
+             trs = 0;
+            prp = 0;
+            janasena = 0;
+             total = 0;
+        }
+        
+        function count() {
+             a = window.open('', '', 'height=500, width=600');
+            
+            a.document.write(' <h1>Congress votes are :' + congress + '<br>');
+            a.document.write(' <h1>BJP votes are :' + bjp + '<br>');
+            a.document.write(' <h1>TDP votes are :' + tdp + '<br>');
+            a.document.write(' <h1>YSR congress votes are :' + ysr + '<br>');
+            a.document.write(' <h1>Loksatha votes are :' + lok + '<br>');
+            a.document.write(' <h1>CPM votes are :' + cpm + '<br>');
+            a.document.write(' <h1>TRS votes are :' + trs + '<br>');
+            a.document.write(' <h1>PRP votes are :' + prp + '<br>');
+            a.document.write(' <h1>Janasena votes are :' + janasena + '<br>');
+            a.document.write(' <h1>TOTAL votes are :' + total + '<br>');
+            
+        }
+        function windowclose() {
+            
+            a.close();
+        }
+        
+
+        function poweron() {
+            document.getElementById("div1").style.visibility = "hidden";
+            document.getElementById("btn1").style.backgroundColor = "red";
+        }
+        function poweroff() {
+            document.getElementById("div1").style.visibility = "visible";
+            document.getElementById("btn1").style.backgroundColor = "green";
+        }
+        
+
+    </script>
+</body>
+</html>

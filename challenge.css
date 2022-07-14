@@ -1,0 +1,359 @@
+﻿body
+{
+}
+#div1{
+    display:inline-block;
+    width:520px;
+    height:600px;
+    border:solid;
+    overflow:hidden;
+    border-radius:20px;
+    background-color:lightgray;
+}
+#div2 {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+    border: solid;
+    margin-top: -50px;
+    margin-left: 100px;
+    overflow: hidden;
+    background-color:lightgray;
+}
+#div3 {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: solid;
+    margin-top: 50px;
+    overflow: hidden;
+}
+#div4 {
+    position: absolute;
+    width: 200px;
+    height: 500px;
+    border: solid;
+    top: 60px;
+    left: 320px;
+    overflow: hidden;
+}
+#a1 {
+    border: solid;
+    width: 300px;
+    height: 43px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-image: radial-gradient(ellipse,lightcyan,lightcyan,white);
+    margin-top: 40px;
+    overflow: hidden;
+}
+#a {
+    border: solid;
+    width: 300px;
+    height: 43px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-image: linear-gradient(white,lightcyan);
+    overflow: hidden;
+}
+.b1 {
+    border: solid;
+    width: 200px;
+    height: 43px;
+    border-width: 1px;
+    margin-top: 42px;
+    overflow: hidden;
+}
+.b {
+    border: solid;
+    width: 200px;
+    height: 43px;
+    border-width: 1px;
+    overflow: hidden;
+}
+#p{
+  padding-left:20px;
+  color:#fd6666;
+    
+}
+#img{
+    width:40px;
+    height:40px;
+    position:absolute;
+    bottom:420px;
+    left:220px;
+}
+#img1 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 374px;
+    left: 220px;
+}
+#img2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 327px;
+    left: 220px;
+}
+#img3 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 282px;
+    left: 220px;
+}
+#img4 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 237px;
+    left: 220px;
+}
+#img5 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 195px;
+    left: 220px;
+}
+#img6 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 150px;
+    left: 220px;
+}
+#img7 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 105px;
+    left: 220px;
+}
+#img9 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: 58px;
+    left: 220px;
+}
+
+#img8 {
+    width: 30px;
+    height: 30px;
+    
+   
+    
+}
+#btn {
+    width: 70px;
+    height: 35px;
+    background-color: #272a3f;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 3px;
+    box-shadow: inset 0px 0px 2px 2px grey;
+}
+#btnn {
+    width: 70px;
+    height: 35px;
+    background-color: #818084;
+    border-radius: 20px;
+    margin-left: 40px;
+    margin-top: 3px;
+    box-shadow:inset 0px 0px 2px 2px black;
+}
+#c{
+    border:solid;
+    width:300px;
+    height:100px;
+    margin-left:50px;
+    border-radius:10px;
+    margin-top:20px;
+    background-color:black;
+    box-shadow:inset 0px 0px 3px 7px grey;
+}
+#btn1 {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 340px;
+    background-color: green;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn2 {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 180px;
+    background-color: green;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn3 {
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30px;
+    background-color: red;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn4 {
+    width: 130px;
+    height: 50px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 250px;
+    background-color:grey;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn5 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 35px;
+    background-color: grey;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn6 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 105px;
+    background-color: grey;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn7 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 255px;
+    background-color: grey;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn8 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 330px;
+    background-color: grey;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn9 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 330px;
+    background-color: grey;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#btn10 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 255px;
+    background-color: grey;
+    box-shadow: inset 3px 3px 2px lightgray,2px 2px 3px black;
+}
+#tick{
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0px;
+    left:0px;
+}
+#power{
+    width:30px;
+    height:30px;
+    position:absolute;
+    right:16px;
+    top:15px;
+}
+#divimg{
+    width:50px;
+    height:50px;
+    margin-left:120px;
+    margin-top:30px;
+    position:absolute;
+    visibility:hidden;
+}
+#divimg1 {
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+#divimg2 {
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+#divimg3 {
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+#divimg4 {
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+#divimg5 {
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+#divimg6 {
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+#divimg7 {
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+#divimg8 {
+    width: 50px;
+    height: 50px;
+    margin-left: 120px;
+    margin-top: 30px;
+    position: absolute;
+    visibility: hidden;
+}
+
+#p{
+
+    color:red;
+}
